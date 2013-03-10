@@ -14,11 +14,10 @@ Easily detect mobile devices and redirect them to the mobile version of your sit
 == Description ==
 This plugin easily detects mobile devices and redirects them to the mobile version of your site.  This plugin also gives you the ability to bypass the mobile redirect based upon a cookie that is set on your mobile site.  This allows you to redirect mobile users and give the option to "View Full Site." 
 
-To set the cookie simply add the following code to your mobile site:
+To set the cookie simply add the following PHP code to your mobile site:
 
-<?php
 setcookie("mobile","m", time()+3600, "/");
-?>
+
 
 **The mobile redirect bypass cookie is optional, and should only be used to give your users a "View Full Site" option**
 
