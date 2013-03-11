@@ -38,9 +38,9 @@ Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services a
 
 The settings are located in your WordPress Dashboard under Settings > PHP Redirect
 
-= What format should the URL be in teh PHP Redirect settings? =
+= What format should the URL be in the PHP Redirect settings? =
 
-Your URL should be entered as follows, www.mymobilesite.com and should not indlude http://.  
+Your URL should be entered as follows, <a href="http://www.code96wd.com">www.code96wd.com</a> and should not include http://.  
 
 = What is the cookie name? =
 
