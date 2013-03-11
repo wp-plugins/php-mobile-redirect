@@ -40,7 +40,7 @@ The settings are located in your WordPress Dashboard under Settings > PHP Redire
 
 = What format should the URL be in the PHP Redirect settings? =
 
-Your URL should be entered as follows, <a href="http://www.code96wd.com">www.code96wd.com</a> and should not include http://.  
+Your should enter your full URL without "http://".  
 
 = What is the cookie name? =
 
