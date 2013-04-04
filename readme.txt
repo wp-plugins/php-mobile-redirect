@@ -21,7 +21,7 @@ setcookie("mobile","m", time()+3600, "/");
 
 **The mobile redirect bypass cookie is optional, and should only be used to give your users a "View Full Site" option**
 
-Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services and custom <a href="http://www.code96wd.com">WordPress Themes</a>.
+Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services and custom <a href="http://www.code96wd.com/premium-wordpress-themes/">WordPress Themes</a>.
 
 
 == Installation ==
