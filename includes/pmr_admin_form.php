@@ -21,6 +21,10 @@ function pmr_myplugin_settings() {
 				<h4>PHP Mobile Redirect Settings</h4>
 				<table>
 					<tr>
+						<td style="padding:15px;"><label class="description" for="pmr_settings[enabled]">Enable Redirect: </label></td>
+						<td style="padding:15px;"><input id="pmr_settings[enabled]" name="pmr_settings[enabled]" type="checkbox" value="1" <?php checked(1, $pmr_options['enabled']); ?> />
+					</tr>
+					<tr>
 						<td style="padding:15px;"><label class="description" for="pmr_settings[mobile_url]">Mobile Site URL:  </label></td>
 						<td style="padding:15px;"><input id="pmr_settings[mobile_url]" name="pmr_settings[mobile_url]" type="text" value="<?php echo $pmr_options['mobile_url']; ?>" /></td>
 						<td style="padding:15px;"><b>**URL must be in format www.test.com do not add http://</b></td>
