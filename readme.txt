@@ -14,6 +14,8 @@ Easily detect mobile devices and redirect them to the mobile version of your sit
 == Description ==
 This plugin easily detects mobile devices and redirects them to the mobile version of your site.  This plugin also gives you the ability to bypass the mobile redirect based upon a cookie that is set on your mobile site.  This allows you to redirect mobile users and give the option to "View Full Site." 
 
+**If you are upgrading you must enable the redirect via Settings > PHP Redirect**
+
 To set the cookie simply add the following PHP code to your mobile site:
 
 setcookie("mobile","m", time()+3600, "/");
@@ -28,7 +30,8 @@ Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services a
 1.  Upload the zip file to the /wp-content/plugins/ directory.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
 3.  Go to Settings > PHP Redirect.
-4.  Put in the mobile site URL (excluding http://) to the website you would like to redirect mobile traffic to.
+4.	Enable the mobile redirect by checking the checkbox.
+5.  Put in the mobile site URL (excluding http://) to the website you would like to redirect mobile traffic to.
 6.  Select the name of the cookie you will set on your mobile site to bypass the redirect.
 7.  Select "Save Options" and you are done.
 
