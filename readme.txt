@@ -30,7 +30,7 @@ Code 96 offers <a href="http://www.code96wd.com">WordPress Design</a> services a
 1.  Upload the zip file to the /wp-content/plugins/ directory.
 2.  Activate the plugin through the 'Plugins' menu in WordPress.
 3.  Go to Settings > PHP Redirect.
-4.	Enable the mobile redirect by checking the checkbox.
+4.	Enable the mobile redirect by checking the enable checkbox.
 5.  Put in the mobile site URL (excluding http://) to the website you would like to redirect mobile traffic to.
 6.  Select the name of the cookie you will set on your mobile site to bypass the redirect.
 7.  Select "Save Options" and you are done.
