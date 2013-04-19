@@ -57,8 +57,9 @@ The bypass of the redirect is conditional on the cookie that is set on your mobi
 
 = 1.1 =
 * Added the option to enable/disable the mobile redirect.  
+(Redirect must be enabled after upgrade- Settings > PHP Mobile Redirect)  
 
 = 1.0 =
-* Origninal Release
+* Original Release
 
 == Upgrade Notice == 
