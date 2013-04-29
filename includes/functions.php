@@ -14,10 +14,6 @@
 			{
 				$detect = "false";		
 			}
-			elseif ($detect->isiPad())
-			{
-				$detect = "false";
-			}
 			elseif ($detect->isMobile())
 			{
 				header('Location: http://' . $pmr_options['mobile_url']);

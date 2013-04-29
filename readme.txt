@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: mobile redirect, mobile detect, mobile detection
 Requires at least: 3.2
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,8 @@ The name of the cookie is set on your mobile site page, and if you are using the
 The bypass of the redirect is conditional on the cookie that is set on your mobile site.  If you have used the default code to set the cookie, the cookie will expire in 3600 seconds or one hour.  If you would like to change this time simply modify the cookie settings on your mobile site.  
 
 == Changelog ==
+= 1.1 =
+* Fixed issue with detecting iPad's.  
 
 = 1.1 =
 * Added the option to enable/disable the mobile redirect.  
