@@ -14,6 +14,10 @@
 			{
 				$detect = "false";		
 			}
+			elseif ($detect->isTablet() && $pmr_options['tablet'] == true)
+			{	
+				$detect = "false";
+			}
 			elseif ($detect->isMobile())
 			{
 				header('Location: http://' . $pmr_options['mobile_url']);
@@ -21,3 +25,5 @@
 			}
 		}
 	}
+	
+	

@@ -25,6 +25,10 @@ function pmr_myplugin_settings() {
 						<td style="padding:15px;"><input id="pmr_settings[enabled]" name="pmr_settings[enabled]" type="checkbox" value="1" <?php checked(1, $pmr_options['enabled']); ?> />
 					</tr>
 					<tr>
+						<td style="padding:15px;"><label class="description" for="pmr_settings[tablet]">Exclude Tablets From Redirect: </label></td>
+						<td style="padding:15px;"><input id="pmr_settings[tablet]" name="pmr_settings[tablet]" type="checkbox" value="1" <?php checked(1, $pmr_options['tablet']); ?> />
+					</tr>
+					<tr>
 						<td style="padding:15px;"><label class="description" for="pmr_settings[mobile_url]">Mobile Site URL:  </label></td>
 						<td style="padding:15px;"><input id="pmr_settings[mobile_url]" name="pmr_settings[mobile_url]" type="text" value="<?php echo $pmr_options['mobile_url']; ?>" /></td>
 						<td style="padding:15px;"><b>**URL must be in format www.test.com do not add http://</b></td>
@@ -44,6 +48,7 @@ function pmr_myplugin_settings() {
 			<h4>Mobile Redirect Code</h4>
 			<p><b>Make certain you have added the following code to your mobile index page to set the cookie to bypass the redirect:</b></p>
 			<textarea rows="4" cols="50"><?php echo'<?php';?>&#13;&#10;setcookie("mobile","m", time()+3600, "/");&#13;&#10;<?php echo'?>' ?></textarea>
+			<p>Need help setting up the cookie?  <a href="http://www.code96wd.com/php-mobile-redirect-plugin">Click Here For Help</a></p>
 		</div>
 		<div style="padding-top:50px;">
 			<h4>WordPress Design & WordPress Themes</h4>
@@ -55,6 +60,8 @@ function pmr_myplugin_settings() {
 <?php
 	
 	echo ob_get_clean();
+	
+	
 
 }
 
