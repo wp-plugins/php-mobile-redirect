@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: PHP Mobile Redirect
-Plugin URI: http://www.code96wd.com/php-mobile-redirect-plugin
+Plugin URI: http://www.code96wd.com/wordpress-plugins/
 Description: Easily redirect mobile users to the mobile version of your site.     
 Version: 1.3
 Author: Matthew Smith
