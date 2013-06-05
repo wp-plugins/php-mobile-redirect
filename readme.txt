@@ -54,6 +54,9 @@ The name of the cookie is set on your mobile site page, and if you are using the
 The bypass of the redirect is conditional on the cookie that is set on your mobile site.  If you have used the default code to set the cookie, the cookie will expire in 3600 seconds or one hour.  If you would like to change this time simply modify the cookie settings on your mobile site.  
 
 == Changelog ==
+= 1.4 =
+* Updated Mobile_Detect class to current version 2.6.1
+
 = 1.3 =
 * Admin option added to exclude tablets from the redirect.
 
